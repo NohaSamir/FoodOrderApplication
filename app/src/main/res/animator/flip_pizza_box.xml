@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<objectAnimator
+        android:valueFrom="-180"
+        android:valueTo="180"
+        android:propertyName="rotationX"
+        android:duration="3000" />-->
+
+    <objectAnimator
+        android:valueFrom="180"
+        android:valueTo="-90"
+        android:propertyName="rotationX"
+        android:duration="3000" />
+
+</set>

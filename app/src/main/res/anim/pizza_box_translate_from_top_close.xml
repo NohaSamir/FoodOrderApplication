@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:ordering="sequentially">
+
+    //Translate from bottom with a different animation but i like it
+    <!--<scale
+        android:duration="2000"
+        android:fromXScale="1.0"
+        android:fromYScale="-1.0"
+        android:pivotY="50%p"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />-->
+
+    <translate
+        android:fromYDelta="0%p"
+        android:toYDelta="68%p"
+        android:duration="800" />
+
+</set>

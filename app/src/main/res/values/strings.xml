@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pizza Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="order">Order</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="green_goddess_pizza">Green goddess pizza</string>
+    <string name="free_shipping">Free shipping</string>
+    <string name="added_to_card">Added to card</string>
+    <string name="fresh_line">Fresh Line</string>
+    <string name="price">$ %d</string>
+    <string name="order_success">Your order has been placed\n successfully</string>
+    <string name="temp_address">8 Maria Avu, Uncasvile, CT, 06382</string>
+    <string name="proceed_to_checkout">Proceed to checkout</string>
+    <string name="_5_items">5 items</string>
+    <string name="box_transition" translatable="false">BoxTransition</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="notification">Notification</string>
+</resources>
