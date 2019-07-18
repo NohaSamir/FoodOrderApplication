@@ -164,7 +164,7 @@ public class OrdersListActivity extends AppCompatActivity {
                 animSetXY.setDuration(500);
                 animSetXY.start();
             }
-        }, 2000);
+        }, 1500);
 
     }
 

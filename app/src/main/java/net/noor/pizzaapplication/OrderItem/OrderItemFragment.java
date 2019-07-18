@@ -202,7 +202,7 @@ public class OrderItemFragment extends Fragment {
     }
 
     public void startAnimateBottomLayoutDown() {
-        orderLayout.animate().translationYBy(orderLayout.getHeight()).setDuration(300).start();
+        orderLayout.animate().translationYBy(orderLayout.getHeight()).setDuration(150).start();
     }
 
     //*********************************************************************
@@ -236,7 +236,7 @@ public class OrderItemFragment extends Fragment {
             public void run() {
                 OrdersListActivity.start(mContext, boxImageView2);
             }
-        }, 300);
+        }, 150);
 
     }
 
@@ -244,7 +244,7 @@ public class OrderItemFragment extends Fragment {
         int colorFrom = getResources().getColor(R.color.background_gray_transparent);
         int colorTo = getResources().getColor(R.color.background_gray);
         ValueAnimator colorAnimation = ValueAnimator.ofObject(new ArgbEvaluator(), colorFrom, colorTo);
-        colorAnimation.setDuration(300); // milliseconds
+        colorAnimation.setDuration(150); // milliseconds
         colorAnimation.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
 
             @Override

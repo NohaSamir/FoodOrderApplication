@@ -15,7 +15,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.constraint.Guideline
-        android:id="@+id/guideline5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -240,7 +239,6 @@
                 app:layout_constraintTop_toBottomOf="@+id/view" />
 
             <View
-                android:id="@+id/view2"
                 android:layout_width="2dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="8dp"
@@ -254,7 +252,6 @@
                 app:layout_constraintTop_toTopOf="@+id/textView5" />
 
             <TextView
-                android:id="@+id/textView8"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/padding"
